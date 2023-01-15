@@ -1,0 +1,95 @@
+header {
+
+   height: 100vh;
+}
+
+
+h1 {
+   margin-top: 3vw;
+   font-size: 2rem;
+   font-weight: bolder;
+
+}
+
+h2 {
+   margin-top: 5vw;
+   font-size: 1.5rem;
+   text-decoration: underline;
+
+}
+
+h3 {
+   font-size: 1.5rem;
+   font-weight: bolder;
+
+}
+
+.visagePhoto {
+   border: 2px solid rgba(255, 254, 254, 0.4);
+}
+
+.visageHeader {
+   margin-top: 5vw;
+   display: flex;
+   align-items: center;
+}
+
+.visageAbout {
+
+   flex: 1;
+   padding: 3vw;
+   font-size: 2rem;
+
+}
+
+figcaption span {
+   font-size: 1.5rem;
+}
+
+.visageMain {
+   margin-top: 3vw;
+
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+
+}
+
+p {
+   font-size: 1.2rem;
+}
+
+.exampl {
+   margin-bottom: 3vw;
+}
+
+@media (max-width: 440px) {
+
+   body,
+   header {
+      width: 100vw;
+   }
+
+   .text-center {
+      text-align: center;
+   }
+
+   .visageHeader {
+      flex-direction: column;
+   }
+
+   .visageHeader img {
+      display: none;
+   }
+
+   .visageMain {
+      flex-direction: column;
+      height: calc(var(--index)*270);
+   }
+
+   main {
+      height: calc(var(--index)*300);
+   }
+
+
+}

@@ -1,0 +1,22 @@
+header {
+   background-image: none;
+}
+
+body {
+   background-image: url('../image/charlesdeluvio-t_gU5GQ6neA-unsplash.jpg');
+   background-size: cover;
+}
+
+@media (max-width: 440px) {
+
+
+   header {
+      height: auto;
+   }
+}
+
+.h_ourteam {
+   margin-top: calc(var(--index)*2);
+   font-size: calc(var(--index)*2);
+   text-align: center;
+}

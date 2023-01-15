@@ -1,0 +1,63 @@
+header {
+   background-image: none;
+}
+
+body {
+   background-image: #1111;
+}
+
+.wrPrice {
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.price_img {
+   width: 40%;
+}
+
+.price_img img {
+   width: 100%;
+
+}
+
+.wrCost {
+   width: 45%;
+   font-size: calc(var(--index)*1);
+}
+
+.wrCost h2 {
+   font-size: calc(var(--index)*1.5);
+}
+
+
+
+.price {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+
+
+
+@media (max-width: 440px) {
+
+
+   header {
+      height: auto;
+   }
+
+   .price_img {
+      width: 50%;
+   }
+
+   .wrCost {
+      font-size: calc(var(--index)*0.8);
+   }
+
+   .wrCost h2 {
+      font-size: calc(var(--index)*1.2);
+   }
+}

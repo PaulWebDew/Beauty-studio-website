@@ -1,0 +1,28 @@
+@media (max-width: 440px) {
+
+   body,
+   header {
+      width: 100vw;
+   }
+
+   .text-center {
+      text-align: center;
+   }
+
+   .visageHeader {
+      flex-direction: column;
+   }
+
+   .visageHeader img {
+      display: none;
+   }
+
+   .visageMain {
+      flex-direction: column;
+      height: calc(var(--index)*350);
+   }
+
+   main {
+      height: calc(var(--index)*380);
+   }
+}
