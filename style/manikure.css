@@ -19,10 +19,12 @@
 
    .visageMain {
       flex-direction: column;
-      height: calc(var(--index)*350);
    }
 
    main {
-      height: calc(var(--index)*380);
+      height: calc(var(--index)*240);
+   }
+   body{
+      height: calc(var(--index)*410);
    }
 }

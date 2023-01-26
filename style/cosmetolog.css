@@ -1,0 +1,12 @@
+@media(max-width:440px) {
+   main {
+      height: calc(var(--index)*170);
+   }
+   body{
+      height: calc(var(--index)*340);
+   }
+
+   .visageMain {
+      height: calc(var(--index)*150);
+   }
+}
